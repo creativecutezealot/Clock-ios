@@ -1,0 +1,20 @@
+PODS:
+  - Clocket (1.0.2)
+  - IQKeyboardManagerSwift (6.5.4)
+
+DEPENDENCIES:
+  - Clocket
+  - IQKeyboardManagerSwift
+
+SPEC REPOS:
+  https://cdn.cocoapods.org/:
+    - Clocket
+    - IQKeyboardManagerSwift
+
+SPEC CHECKSUMS:
+  Clocket: 096ae0fb73338019f32e9234799d3f5da85bf89d
+  IQKeyboardManagerSwift: 2dde0fc70110e8eac7ccce2a46fdbec6a850b414
+
+PODFILE CHECKSUM: d64c84d548230a0644b0fa157273b51a3287fe2b
+
+COCOAPODS: 1.8.4

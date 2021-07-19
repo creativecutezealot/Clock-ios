@@ -1,0 +1,750 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3B599773D5B3739E830F57FF /* Pods_Clock_ClockUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A28BA7497C1CB296FD867B1C /* Pods_Clock_ClockUITests.framework */; };
+		6543D24AA192D4FA1D2CB928 /* Pods_Clock.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AFC13DBECC8F80F70A52A31 /* Pods_Clock.framework */; };
+		AD77B02423848A9800E1DC45 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77B02323848A9800E1DC45 /* AppDelegate.swift */; };
+		AD77B02623848A9800E1DC45 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77B02523848A9800E1DC45 /* SceneDelegate.swift */; };
+		AD77B02823848A9800E1DC45 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77B02723848A9800E1DC45 /* ViewController.swift */; };
+		AD77B02B23848A9800E1DC45 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD77B02923848A9800E1DC45 /* Main.storyboard */; };
+		AD77B02D23848A9900E1DC45 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD77B02C23848A9900E1DC45 /* Assets.xcassets */; };
+		AD77B03023848A9900E1DC45 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD77B02E23848A9900E1DC45 /* LaunchScreen.storyboard */; };
+		AD77B03B23848A9900E1DC45 /* ClockTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77B03A23848A9900E1DC45 /* ClockTests.swift */; };
+		AD77B04623848A9900E1DC45 /* ClockUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD77B04523848A9900E1DC45 /* ClockUITests.swift */; };
+		B42886188CD6D8C68D23624A /* Pods_ClockTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 10EDEA49A47242B6A40A1B1D /* Pods_ClockTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AD77B03723848A9900E1DC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD77B01823848A9800E1DC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD77B01F23848A9800E1DC45;
+			remoteInfo = Clock;
+		};
+		AD77B04223848A9900E1DC45 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AD77B01823848A9800E1DC45 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AD77B01F23848A9800E1DC45;
+			remoteInfo = Clock;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		10EDEA49A47242B6A40A1B1D /* Pods_ClockTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ClockTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		25C3BBF4883A33D3158CA135 /* Pods-ClockTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockTests.release.xcconfig"; path = "Target Support Files/Pods-ClockTests/Pods-ClockTests.release.xcconfig"; sourceTree = "<group>"; };
+		3AFC13DBECC8F80F70A52A31 /* Pods_Clock.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clock.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		78B02F22F097ACF7F1AA9D93 /* Pods-Clock.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.debug.xcconfig"; path = "Target Support Files/Pods-Clock/Pods-Clock.debug.xcconfig"; sourceTree = "<group>"; };
+		92AA73431F6B53F4065B152A /* Pods-ClockTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ClockTests.debug.xcconfig"; path = "Target Support Files/Pods-ClockTests/Pods-ClockTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A28BA7497C1CB296FD867B1C /* Pods_Clock_ClockUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Clock_ClockUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A572EE359E40E0443D4E9C91 /* Pods-Clock.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock.release.xcconfig"; path = "Target Support Files/Pods-Clock/Pods-Clock.release.xcconfig"; sourceTree = "<group>"; };
+		AD77B02023848A9800E1DC45 /* Clock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Clock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD77B02323848A9800E1DC45 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AD77B02523848A9800E1DC45 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		AD77B02723848A9800E1DC45 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AD77B02A23848A9800E1DC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AD77B02C23848A9900E1DC45 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AD77B02F23848A9900E1DC45 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AD77B03123848A9900E1DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD77B03623848A9900E1DC45 /* ClockTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD77B03A23848A9900E1DC45 /* ClockTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTests.swift; sourceTree = "<group>"; };
+		AD77B03C23848A9900E1DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD77B04123848A9900E1DC45 /* ClockUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ClockUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AD77B04523848A9900E1DC45 /* ClockUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockUITests.swift; sourceTree = "<group>"; };
+		AD77B04723848A9900E1DC45 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B7B19B9AF2DE4319C0605E4B /* Pods-Clock-ClockUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock-ClockUITests.debug.xcconfig"; path = "Target Support Files/Pods-Clock-ClockUITests/Pods-Clock-ClockUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F0D7BC8647E1999DA0B6DA78 /* Pods-Clock-ClockUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Clock-ClockUITests.release.xcconfig"; path = "Target Support Files/Pods-Clock-ClockUITests/Pods-Clock-ClockUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AD77B01D23848A9800E1DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6543D24AA192D4FA1D2CB928 /* Pods_Clock.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03323848A9900E1DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42886188CD6D8C68D23624A /* Pods_ClockTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03E23848A9900E1DC45 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3B599773D5B3739E830F57FF /* Pods_Clock_ClockUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		281DED7FCC302F92A8DAC298 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AFC13DBECC8F80F70A52A31 /* Pods_Clock.framework */,
+				A28BA7497C1CB296FD867B1C /* Pods_Clock_ClockUITests.framework */,
+				10EDEA49A47242B6A40A1B1D /* Pods_ClockTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		591D49C429BDB8572AF8C8FF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				78B02F22F097ACF7F1AA9D93 /* Pods-Clock.debug.xcconfig */,
+				A572EE359E40E0443D4E9C91 /* Pods-Clock.release.xcconfig */,
+				B7B19B9AF2DE4319C0605E4B /* Pods-Clock-ClockUITests.debug.xcconfig */,
+				F0D7BC8647E1999DA0B6DA78 /* Pods-Clock-ClockUITests.release.xcconfig */,
+				92AA73431F6B53F4065B152A /* Pods-ClockTests.debug.xcconfig */,
+				25C3BBF4883A33D3158CA135 /* Pods-ClockTests.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		AD77B01723848A9800E1DC45 = {
+			isa = PBXGroup;
+			children = (
+				AD77B02223848A9800E1DC45 /* Clock */,
+				AD77B03923848A9900E1DC45 /* ClockTests */,
+				AD77B04423848A9900E1DC45 /* ClockUITests */,
+				AD77B02123848A9800E1DC45 /* Products */,
+				591D49C429BDB8572AF8C8FF /* Pods */,
+				281DED7FCC302F92A8DAC298 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AD77B02123848A9800E1DC45 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B02023848A9800E1DC45 /* Clock.app */,
+				AD77B03623848A9900E1DC45 /* ClockTests.xctest */,
+				AD77B04123848A9900E1DC45 /* ClockUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AD77B02223848A9800E1DC45 /* Clock */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B02323848A9800E1DC45 /* AppDelegate.swift */,
+				AD77B02523848A9800E1DC45 /* SceneDelegate.swift */,
+				AD77B02723848A9800E1DC45 /* ViewController.swift */,
+				AD77B02923848A9800E1DC45 /* Main.storyboard */,
+				AD77B02C23848A9900E1DC45 /* Assets.xcassets */,
+				AD77B02E23848A9900E1DC45 /* LaunchScreen.storyboard */,
+				AD77B03123848A9900E1DC45 /* Info.plist */,
+			);
+			path = Clock;
+			sourceTree = "<group>";
+		};
+		AD77B03923848A9900E1DC45 /* ClockTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B03A23848A9900E1DC45 /* ClockTests.swift */,
+				AD77B03C23848A9900E1DC45 /* Info.plist */,
+			);
+			path = ClockTests;
+			sourceTree = "<group>";
+		};
+		AD77B04423848A9900E1DC45 /* ClockUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AD77B04523848A9900E1DC45 /* ClockUITests.swift */,
+				AD77B04723848A9900E1DC45 /* Info.plist */,
+			);
+			path = ClockUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AD77B01F23848A9800E1DC45 /* Clock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD77B04A23848A9900E1DC45 /* Build configuration list for PBXNativeTarget "Clock" */;
+			buildPhases = (
+				AF3B0107BDBB422669F682C8 /* [CP] Check Pods Manifest.lock */,
+				AD77B01C23848A9800E1DC45 /* Sources */,
+				AD77B01D23848A9800E1DC45 /* Frameworks */,
+				AD77B01E23848A9800E1DC45 /* Resources */,
+				8B8BCD8218408839B60DE32F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Clock;
+			productName = Clock;
+			productReference = AD77B02023848A9800E1DC45 /* Clock.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AD77B03523848A9900E1DC45 /* ClockTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD77B04D23848A9900E1DC45 /* Build configuration list for PBXNativeTarget "ClockTests" */;
+			buildPhases = (
+				DB0DAA91E2D171E1A84E37BC /* [CP] Check Pods Manifest.lock */,
+				AD77B03223848A9900E1DC45 /* Sources */,
+				AD77B03323848A9900E1DC45 /* Frameworks */,
+				AD77B03423848A9900E1DC45 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD77B03823848A9900E1DC45 /* PBXTargetDependency */,
+			);
+			name = ClockTests;
+			productName = ClockTests;
+			productReference = AD77B03623848A9900E1DC45 /* ClockTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AD77B04023848A9900E1DC45 /* ClockUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AD77B05023848A9900E1DC45 /* Build configuration list for PBXNativeTarget "ClockUITests" */;
+			buildPhases = (
+				20AB01BAEC89E16469101FC7 /* [CP] Check Pods Manifest.lock */,
+				AD77B03D23848A9900E1DC45 /* Sources */,
+				AD77B03E23848A9900E1DC45 /* Frameworks */,
+				AD77B03F23848A9900E1DC45 /* Resources */,
+				56F2B3D742375B981814479D /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AD77B04323848A9900E1DC45 /* PBXTargetDependency */,
+			);
+			name = ClockUITests;
+			productName = ClockUITests;
+			productReference = AD77B04123848A9900E1DC45 /* ClockUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AD77B01823848A9800E1DC45 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1120;
+				LastUpgradeCheck = 1120;
+				ORGANIZATIONNAME = Catalina;
+				TargetAttributes = {
+					AD77B01F23848A9800E1DC45 = {
+						CreatedOnToolsVersion = 11.2.1;
+					};
+					AD77B03523848A9900E1DC45 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = AD77B01F23848A9800E1DC45;
+					};
+					AD77B04023848A9900E1DC45 = {
+						CreatedOnToolsVersion = 11.2.1;
+						TestTargetID = AD77B01F23848A9800E1DC45;
+					};
+				};
+			};
+			buildConfigurationList = AD77B01B23848A9800E1DC45 /* Build configuration list for PBXProject "Clock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AD77B01723848A9800E1DC45;
+			productRefGroup = AD77B02123848A9800E1DC45 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AD77B01F23848A9800E1DC45 /* Clock */,
+				AD77B03523848A9900E1DC45 /* ClockTests */,
+				AD77B04023848A9900E1DC45 /* ClockUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AD77B01E23848A9800E1DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77B03023848A9900E1DC45 /* LaunchScreen.storyboard in Resources */,
+				AD77B02D23848A9900E1DC45 /* Assets.xcassets in Resources */,
+				AD77B02B23848A9800E1DC45 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03423848A9900E1DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03F23848A9900E1DC45 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20AB01BAEC89E16469101FC7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clock-ClockUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		56F2B3D742375B981814479D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clock-ClockUITests/Pods-Clock-ClockUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clock-ClockUITests/Pods-Clock-ClockUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clock-ClockUITests/Pods-Clock-ClockUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8B8BCD8218408839B60DE32F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clock/Pods-Clock-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Clock/Pods-Clock-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Clock/Pods-Clock-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AF3B0107BDBB422669F682C8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Clock-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DB0DAA91E2D171E1A84E37BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ClockTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AD77B01C23848A9800E1DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77B02823848A9800E1DC45 /* ViewController.swift in Sources */,
+				AD77B02423848A9800E1DC45 /* AppDelegate.swift in Sources */,
+				AD77B02623848A9800E1DC45 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03223848A9900E1DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77B03B23848A9900E1DC45 /* ClockTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AD77B03D23848A9900E1DC45 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD77B04623848A9900E1DC45 /* ClockUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AD77B03823848A9900E1DC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD77B01F23848A9800E1DC45 /* Clock */;
+			targetProxy = AD77B03723848A9900E1DC45 /* PBXContainerItemProxy */;
+		};
+		AD77B04323848A9900E1DC45 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AD77B01F23848A9800E1DC45 /* Clock */;
+			targetProxy = AD77B04223848A9900E1DC45 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AD77B02923848A9800E1DC45 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD77B02A23848A9800E1DC45 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AD77B02E23848A9900E1DC45 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AD77B02F23848A9900E1DC45 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AD77B04823848A9900E1DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AD77B04923848A9900E1DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AD77B04B23848A9900E1DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78B02F22F097ACF7F1AA9D93 /* Pods-Clock.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = Clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AD77B04C23848A9900E1DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A572EE359E40E0443D4E9C91 /* Pods-Clock.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = Clock/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.Clock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AD77B04E23848A9900E1DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 92AA73431F6B53F4065B152A /* Pods-ClockTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = ClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.ClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
+			};
+			name = Debug;
+		};
+		AD77B04F23848A9900E1DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25C3BBF4883A33D3158CA135 /* Pods-ClockTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = ClockTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.ClockTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Clock.app/Clock";
+			};
+			name = Release;
+		};
+		AD77B05123848A9900E1DC45 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7B19B9AF2DE4319C0605E4B /* Pods-Clock-ClockUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = ClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.ClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clock;
+			};
+			name = Debug;
+		};
+		AD77B05223848A9900E1DC45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D7BC8647E1999DA0B6DA78 /* Pods-Clock-ClockUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 434S6EF56C;
+				INFOPLIST_FILE = ClockUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.watch.ClockUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Clock;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AD77B01B23848A9800E1DC45 /* Build configuration list for PBXProject "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B04823848A9900E1DC45 /* Debug */,
+				AD77B04923848A9900E1DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD77B04A23848A9900E1DC45 /* Build configuration list for PBXNativeTarget "Clock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B04B23848A9900E1DC45 /* Debug */,
+				AD77B04C23848A9900E1DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD77B04D23848A9900E1DC45 /* Build configuration list for PBXNativeTarget "ClockTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B04E23848A9900E1DC45 /* Debug */,
+				AD77B04F23848A9900E1DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AD77B05023848A9900E1DC45 /* Build configuration list for PBXNativeTarget "ClockUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AD77B05123848A9900E1DC45 /* Debug */,
+				AD77B05223848A9900E1DC45 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AD77B01823848A9800E1DC45 /* Project object */;
+}
